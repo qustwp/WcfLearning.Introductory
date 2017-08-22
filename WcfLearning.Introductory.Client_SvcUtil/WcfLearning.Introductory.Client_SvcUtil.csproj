@@ -42,9 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalculatorServiceClient.cs" />
+    <Compile Include="CalculatorServiceProxy.cs" />
     <Compile Include="Readme.cs" />
-    <Compile Include="SvcUtilGenerated\CalculatorServiceProxy.cs" />
+    <Compile Include="SvcUtilGenerated\CalculatorServiceClient.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

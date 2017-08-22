@@ -9,13 +9,13 @@ namespace WcfLearning.Introductory.Client_SvcUtil
     {
         static void Main(string[] args)
         {
-            CalculatorServiceClient servieClient1 = new CalculatorServiceClient("WSHttpBinding_ICalculator");
+            CalculatorServiceProxy servieProxy1 = new CalculatorServiceProxy("WSHttpBinding_ICalculator");
 
-            int addResult = servieClient1.Add(1, 2);
+            int addResult = servieProxy1.Add(1, 2);
 
-            CalculatorServiceClient serviceClient2 = new CalculatorServiceClient("WSHttpBinding_ICalculator1");
+            CalculatorServiceProxy serviceProxy2 = new CalculatorServiceProxy("WSHttpBinding_ICalculator1");
 
-            int subtractResult = serviceClient2.Subtract(1, 2);
+            int subtractResult = serviceProxy2.Subtract(1, 2);
 
             Console.ReadLine();
         }
