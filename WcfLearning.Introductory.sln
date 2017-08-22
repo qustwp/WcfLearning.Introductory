@@ -15,6 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfLearning.Introductory.Cl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfLearning.Introductory.Client_ClientBase", "WcfLearning.Introductory.Client_ClientBase\WcfLearning.Introductory.Client_ClientBase.csproj", "{0ADF4654-9F70-4A6C-A39E-B877D64D1AF8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contract", "Contract", "{7E99DE29-2DC9-46AF-903A-358C71738E79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{A184E32C-E978-4695-A97C-4AAAABE53A92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{43652CE8-A0B0-4118-9D8E-C7F4A229DCDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +54,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C69400CF-7B56-4BEC-96C5-099922A48A1A} = {7E99DE29-2DC9-46AF-903A-358C71738E79}
+		{DAFF9A08-481F-4355-BA99-0DF66F7ECF33} = {A184E32C-E978-4695-A97C-4AAAABE53A92}
+		{3AB2CD0D-D906-4C8D-B133-20BBBBF48A31} = {43652CE8-A0B0-4118-9D8E-C7F4A229DCDD}
+		{0ADF4654-9F70-4A6C-A39E-B877D64D1AF8} = {43652CE8-A0B0-4118-9D8E-C7F4A229DCDD}
+		{C62AB7A3-4860-4934-A198-B38D893536E6} = {43652CE8-A0B0-4118-9D8E-C7F4A229DCDD}
+		{88FFE2DC-2AAC-43C7-8285-4E0E995F2F3D} = {43652CE8-A0B0-4118-9D8E-C7F4A229DCDD}
 	EndGlobalSection
 EndGlobal
