@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfLearning.Introductory.Contract", "WcfLearning.Introductory.Contract\WcfLearning.Introductory.Contract.csproj", "{C69400CF-7B56-4BEC-96C5-099922A48A1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfLearning.Introductory.ConsoleHost", "WcfLearning.Introductory.ConsoleHost\WcfLearning.Introductory.ConsoleHost.csproj", "{DAFF9A08-481F-4355-BA99-0DF66F7ECF33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfLearning.Introductory.Client_ServiceReference", "WcfLearning.Introductory.Client_ServiceReference\WcfLearning.Introductory.Client_ServiceReference.csproj", "{C62AB7A3-4860-4934-A198-B38D893536E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfLearning.Introductory.Client_SvcUtil", "WcfLearning.Introductory.Client_SvcUtil\WcfLearning.Introductory.Client_SvcUtil.csproj", "{88FFE2DC-2AAC-43C7-8285-4E0E995F2F3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfLearning.Introductory.Client_ChannelFactory", "WcfLearning.Introductory.Client_ChannelFactory\WcfLearning.Introductory.Client_ChannelFactory.csproj", "{3AB2CD0D-D906-4C8D-B133-20BBBBF48A31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfLearning.Introductory.Client_ClientBase", "WcfLearning.Introductory.Client_ClientBase\WcfLearning.Introductory.Client_ClientBase.csproj", "{0ADF4654-9F70-4A6C-A39E-B877D64D1AF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C69400CF-7B56-4BEC-96C5-099922A48A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C69400CF-7B56-4BEC-96C5-099922A48A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C69400CF-7B56-4BEC-96C5-099922A48A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C69400CF-7B56-4BEC-96C5-099922A48A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAFF9A08-481F-4355-BA99-0DF66F7ECF33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAFF9A08-481F-4355-BA99-0DF66F7ECF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAFF9A08-481F-4355-BA99-0DF66F7ECF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAFF9A08-481F-4355-BA99-0DF66F7ECF33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C62AB7A3-4860-4934-A198-B38D893536E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C62AB7A3-4860-4934-A198-B38D893536E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C62AB7A3-4860-4934-A198-B38D893536E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C62AB7A3-4860-4934-A198-B38D893536E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88FFE2DC-2AAC-43C7-8285-4E0E995F2F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88FFE2DC-2AAC-43C7-8285-4E0E995F2F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88FFE2DC-2AAC-43C7-8285-4E0E995F2F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88FFE2DC-2AAC-43C7-8285-4E0E995F2F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AB2CD0D-D906-4C8D-B133-20BBBBF48A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AB2CD0D-D906-4C8D-B133-20BBBBF48A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AB2CD0D-D906-4C8D-B133-20BBBBF48A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AB2CD0D-D906-4C8D-B133-20BBBBF48A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ADF4654-9F70-4A6C-A39E-B877D64D1AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ADF4654-9F70-4A6C-A39E-B877D64D1AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ADF4654-9F70-4A6C-A39E-B877D64D1AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ADF4654-9F70-4A6C-A39E-B877D64D1AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
