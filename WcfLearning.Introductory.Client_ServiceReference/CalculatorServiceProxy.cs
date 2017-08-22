@@ -6,13 +6,13 @@ using WcfLearning.Introductory.Contract;
 
 namespace WcfLearning.Introductory.Client_ServiceReference
 {
-    public class CalculatorServiceFacade:ICalculator
+    public class CalculatorServiceProxy:ICalculator
     {
-        private CalculatorServiceProxy.CalculatorClient _client;
+        private CalculatorServiceClient.CalculatorClient _client;
 
-        public CalculatorServiceFacade(string endpoint)
+        public CalculatorServiceProxy(string endpoint)
         {
-            _client = new CalculatorServiceProxy.CalculatorClient(endpoint);
+            _client = new CalculatorServiceClient.CalculatorClient(endpoint);
         }
 
         public int Add(int a, int b)

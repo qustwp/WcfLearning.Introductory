@@ -8,11 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WcfLearning.Introductory.Client_ServiceReference.CalculatorServiceProxy {
+namespace WcfLearning.Introductory.Client_ServiceReference.CalculatorServiceClient {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="CalculatorServiceProxy.ICalculator")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="CalculatorServiceClient.ICalculator")]
     public interface ICalculator {
         
         [System.ServiceModel.OperationContractAttribute(ProtectionLevel=System.Net.Security.ProtectionLevel.EncryptAndSign, Action="http://tempuri.org/ICalculator/Add", ReplyAction="http://tempuri.org/ICalculator/AddResponse")]
@@ -23,12 +23,12 @@ namespace WcfLearning.Introductory.Client_ServiceReference.CalculatorServiceProx
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface ICalculatorChannel : WcfLearning.Introductory.Client_ServiceReference.CalculatorServiceProxy.ICalculator, System.ServiceModel.IClientChannel {
+    public interface ICalculatorChannel : WcfLearning.Introductory.Client_ServiceReference.CalculatorServiceClient.ICalculator, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class CalculatorClient : System.ServiceModel.ClientBase<WcfLearning.Introductory.Client_ServiceReference.CalculatorServiceProxy.ICalculator>, WcfLearning.Introductory.Client_ServiceReference.CalculatorServiceProxy.ICalculator {
+    public partial class CalculatorClient : System.ServiceModel.ClientBase<WcfLearning.Introductory.Client_ServiceReference.CalculatorServiceClient.ICalculator>, WcfLearning.Introductory.Client_ServiceReference.CalculatorServiceClient.ICalculator {
         
         public CalculatorClient() {
         }

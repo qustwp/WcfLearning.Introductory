@@ -9,11 +9,11 @@ namespace WcfLearning.Introductory.Client_ServiceReference
     {
         static void Main(string[] args)
         {
-            CalculatorServiceFacade servieClient1 = new CalculatorServiceFacade("CalculatorService1");
+            CalculatorServiceProxy servieClient1 = new CalculatorServiceProxy("CalculatorService1");
 
             int addResult = servieClient1.Add(1, 2);
 
-            CalculatorServiceFacade serviceClient2 = new CalculatorServiceFacade("CalculatorService2");
+            CalculatorServiceProxy serviceClient2 = new CalculatorServiceProxy("CalculatorService2");
 
             int subtractResult = serviceClient2.Subtract(1, 2);
 
